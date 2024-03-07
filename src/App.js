@@ -10,7 +10,7 @@ const App = () => {
     }
   ])
    
- console.log('selam')
+ 
   
   return (
     <div>
