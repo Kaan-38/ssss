@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: white;
+}
+div {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    position: relative;
+    width: 440px;
+    height: 400px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 24px rgb(76, 76, 221);
+    border-radius: 8px;
+    overflow: auto;
+}
+span {
+    position: relative;
+    width: 440px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 14px;
+    margin-top: 8px;
+}
+input {
+    position: relative;
+    width: 200px;
+    height: 32px;
+    background-color: rgb(76, 76, 221);
+    box-shadow: 0 0 16px rgb(76, 76, 221);
+    color: white;
+    text-shadow: 0 0 2px white;
+    outline: none;
+    border-style: none;
+    margin: 3px;
+}
+h3 {
+    position: relative;
+    width: 110px;
+    height: 32px;
+    background-color: rgb(76, 76, 221);
+    box-shadow: 0 0 6px rgb(76, 76, 221);
+    color: white;
+    text-shadow: 0 0 2px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left: 16px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.close_icon {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    color: rgb(221, 9, 9);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 4px;
 }
